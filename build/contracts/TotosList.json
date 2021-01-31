@@ -17,15 +17,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"totoCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TodoList.sol\":\"TotosList\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TodoList.sol\":{\"keccak256\":\"0x021a1a753c2b3cf9069f86401b8b2aad156767573d22da992c2cf0bdc927b6d6\",\"urls\":[\"bzz-raw://d386292743fbb9cbc561aa97a7cdda537c911960236d1ca7fb9c275f025b68a3\",\"dweb:/ipfs/QmbCZb2p6CWFccjhRwk8v3RNYmHvJQgcWM5GxAYm5iJNvA\"]}},\"version\":1}",
-  "bytecode": "0x608060405260008055348015601357600080fd5b506084806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806386ee1c0f14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158201449a411e86158c74b50ad0f77a0dff1a74e6ee47d51f713cef8378ac46a6c5064736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806386ee1c0f14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a723158201449a411e86158c74b50ad0f77a0dff1a74e6ee47d51f713cef8378ac46a6c5064736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"totoCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TotosList.sol\":\"TotosList\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TotosList.sol\":{\"keccak256\":\"0x021a1a753c2b3cf9069f86401b8b2aad156767573d22da992c2cf0bdc927b6d6\",\"urls\":[\"bzz-raw://d386292743fbb9cbc561aa97a7cdda537c911960236d1ca7fb9c275f025b68a3\",\"dweb:/ipfs/QmbCZb2p6CWFccjhRwk8v3RNYmHvJQgcWM5GxAYm5iJNvA\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506084806100226000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806386ee1c0f14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820206a3ee8c24241f791d6bc7343d961110dcf1613f7d4a678b8e160b9b4453ebf64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806386ee1c0f14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820206a3ee8c24241f791d6bc7343d961110dcf1613f7d4a678b8e160b9b4453ebf64736f6c63430005100032",
   "sourceMap": "25:64:1:-;;;85:1;61:25;;25:64;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:64:1;;;;;;;",
   "deployedSourceMap": "25:64:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:64:1;;;;;;;;;;;;;;;;;;;61:25;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\ncontract TotosList {\n  // Starter\n  uint public totoCount = 0;\n}",
-  "sourcePath": "/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TodoList.sol",
+  "sourcePath": "/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TotosList.sol",
   "ast": {
-    "absolutePath": "/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TodoList.sol",
+    "absolutePath": "/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TotosList.sol",
     "exportedSymbols": {
       "TotosList": [
         38
@@ -110,7 +110,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TodoList.sol",
+      "absolutePath": "/Users/sokos6/Development/cryptofrequency/totoscrypt/contracts/TotosList.sol",
       "exportedSymbols": {
         "TotosList": [
           38
@@ -207,7 +207,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-31T05:12:05.766Z",
+  "updatedAt": "2021-01-31T05:13:16.845Z",
   "devdoc": {
     "methods": {}
   },
